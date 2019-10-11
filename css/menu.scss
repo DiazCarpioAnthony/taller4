@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+  .logo {
+    height: 80px;
+    width: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+  }
+  .title {
+    text-align: center;
+  }
+  h1 {
+    font-family: "Pacifico", cursive;
+  }
+  .container {
+    background: #fff;
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      background: #004a8c;
+      color: #fff;
+      -webkit-box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+      font-family: Montserrat, sans-serif;
+      .saldo {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+      .persona {
+        font-size: 18px;
+        i {
+          margin-bottom: 5px;
+        }
+      }
+      h3 {
+        font-size: 20px;
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 12px;
+      }
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+      .pelicula {
+        width: 25%;
+        overflow: hidden;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-radius: 15px;
+        margin: 50px auto;
+        -webkit-box-shadow: 5px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 5px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 5px 3px 11px 0px rgba(0, 0, 0, 0.75);
+        img {
+          height: 100%;
+        }
+        a {
+          display: block;
+          position: absolute;
+          color: #fff;
+          bottom: 0px;
+          z-index: 5;
+          text-align: center;
+          text-decoration: none;
+          padding: 10px;
+          width: 100%;
+          background: #004a8c;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-weight: bold;
+          font-size: 18px;
+        }
+      }
+    }
+  
+}
