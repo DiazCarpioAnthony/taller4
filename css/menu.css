@@ -111,4 +111,8 @@ h1 {
   font-weight: bold;
   font-size: 18px;
 }
+
+.container main .pelicula a i {
+  margin-right: 8px;
+}
 /*# sourceMappingURL=menu.css.map */
